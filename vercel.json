@@ -1,9 +1,8 @@
 {
-    "cleanUrls": true,
-    "rewrites": [
-        {
-        "source": "/",
-        "destination": "/html/index.html"
-        }
+    "includeFiles": [
+        "../images/**",
+        "../javaScript/**",
+        "../styles/**",
+        "../files/**"
     ]
 }
