@@ -1,8 +1,9 @@
 {
-    "includeFiles": [
-        "../images/**",
-        "../javaScript/**",
-        "../styles/**",
-        "../files/**"
-    ]
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
 }
